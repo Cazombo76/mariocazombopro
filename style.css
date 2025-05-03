@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background: #003366;
+  color: #fff;
+  padding: 2em;
+  text-align: center;
+}
+
+.servicos, .contato {
+  padding: 2em;
+  background: white;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #003366;
+}
+
+a {
+  display: inline-block;
+  margin: 0.5em;
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #003366;
+  color: white;
+}

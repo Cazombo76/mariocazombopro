@@ -1,40 +1,80 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f7f7f7;
-  color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #000;
 }
 
 header {
-  background: #003366;
-  color: #fff;
-  padding: 2em;
-  text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.servicos, .contato {
-  padding: 2em;
-  background: white;
-  margin: 1em;
-  border-radius: 10px;
+.logo img {
+    height: 40px;
 }
 
-h2 {
-  color: #003366;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-a {
-  display: inline-block;
-  margin: 0.5em;
-  color: #003366;
-  text-decoration: none;
-  font-weight: bold;
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.hero {
+    background: #f90;
+    color: #fff;
+    padding: 4em;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.cta {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+    margin-top: 1em;
 }
 
 footer {
-  text-align: center;
-  padding: 1em;
-  background: #003366;
-  color: white;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+.social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
